@@ -1,0 +1,7 @@
+{
+    "indent_with_tabs": false,
+    "end_with_newline": true,
+    "space_after_anon_function": true,
+    "indent_char": " ",
+    "indent_size": 4
+}

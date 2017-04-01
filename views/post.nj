@@ -1,0 +1,22 @@
+{% extends "layout.nj" %}
+
+{% block content %}
+<form action="./post" method="POST" role="form">
+    <div class="form-group">
+        <label for="title">Title</label>
+        <input id="title" class="form-control" type="text" name="title" placeholder="Title" />
+    </div>
+    <div class="form-group">
+        <label for="slug">Slug</label>
+        <input id="slug" class="form-control" type="text" name="slug" placeholder="Slug" />
+        <span class="help-block">This string will be used in the URL.</span>
+    </div>
+    <div class="form-group">
+        <label for="content">Description</label>
+        <textarea id="content" class="form-control" rows="5" name="content" placeholder="Content" />
+    </div>
+    <p>
+        <button class="btn btn-primary" type="submit">Save</button>
+    </p>
+</form>
+{% endblock %}

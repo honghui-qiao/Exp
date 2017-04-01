@@ -1,0 +1,9 @@
+{% extends "layout.nj" %}
+
+{% block content %}
+<form action="./login" method="POST">
+    <input class="form-control" type="text" name="username" placeholder="UserName" />
+    <input class="form-control" type="password" name="password" placeholder="Password" />
+    <button class="btn btn-lg btn-primary btn-block" type="submit">Login</button>
+</form>
+{% endblock %}

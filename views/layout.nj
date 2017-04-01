@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="dns-prefetch" href="//www.ticketnew.com/" />
+    <link rel="dns-prefetch" href="//img.ticketnew.com/" />
+    <link rel="dns-prefetch" href="//api.ticketnew.com/" />
+
+    <meta content="IE=edge" http-equiv="X-UA-Compatible" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no" />
+    <meta content="yes" name="apple-mobile-web-app-capable" />
+    <meta content="yes" name="apple-touch-fullscreen" />
+    <meta content="telephone=no, email=no" name="format-detection" />
+    <meta name="description" content="Online Movie Tickets Booking, Theatre Tickets Booking, Plays and Sports Ticket Booking at one place ticketnew.com Book Seats Of Your Choice Online Now" />
+    <meta name="keywords" content="Movie Tickets, Online Booking, Movie Booking, Theatre Booking, Movie Tickets Online, Theatre Tickets Online, Events, Plays, Theatres" />
+
+    <title>{{title}}</title>
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css" />
+</head>
+<body>
+    {% block header %}{% endblock %}
+    {% block content %}{% endblock %}
+    {% block footer %}
+    <div>&copy; 2017 | Q</div>
+    <script src="/js/jquery-3.2.0.js"></script>
+    <script src="/bootstrap/js/bootstrap.js"></script>
+    {% endblock %}
+</body>
+</html>
+
